@@ -1,0 +1,24 @@
+#container{
+    display: grid;
+    grid-template-rows: 10vh 90vh;
+    grid-template-areas: 
+    'nv'
+    'mn'
+}
+
+nav{
+    grid-area: nv;
+    background-color: rgb(32, 45, 73);
+}
+
+main{
+    grid-area: mn;
+    background-color: crimson;
+}
+h1{
+    text-align: center;
+    
+}
+h3{
+    text-align: center;
+}
